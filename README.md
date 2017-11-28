@@ -46,3 +46,8 @@ Your use of this sample is subject to, and by using or downloading the sample fi
 
 ## Google+
 Actions on Google Developers Community on Google+ [https://g.co/actionsdev](https://g.co/actionsdev).
+
+
+
+
+C:\Users\rmw6165\Documents\Visual Studio Code\Projects\interactive-fiction-nodejs\interactive-fiction-nodejs>c:\Users\rmw6165\Downloads\gactions update --action_package action.json --project fictionexample
