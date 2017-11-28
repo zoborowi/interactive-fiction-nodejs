@@ -35,6 +35,10 @@ const expressApp = express();
 expressApp.set('port', (process.env.PORT || 8080));
 expressApp.use(bodyParser.json({type: 'application/json'}));
 
+expressApp.get('/', function(req, res){
+  res.send('hello world');
+});
+
 expressApp.post('/', (request, response) => {
   const app = new DialogflowApp({request: request, response: response});
   console.log('Request headers: ' + JSON.stringify(request.headers));
